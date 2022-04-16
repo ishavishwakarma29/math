@@ -1,0 +1,89 @@
+body
+{
+  background-color: #e6e6e8;
+  text-align: center;
+  font-family: 'Luckiest Guy',cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.navbar{
+  background-color: #fe4a49;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav-item{
+  margin-right: 20px;
+}
+/* added this ------------------------------------------------ */
+.nav-link{
+  cursor: pointer;
+}
+.operands{
+  cursor: pointer;
+}
+.active{
+  text-decoration: underline;
+}
+/* ------------------------------------------------------- */
+.A
+{
+  background-color: #fe4a49;
+}
+.B{
+  background-color: #29b6c8;
+}
+.C{
+  background-color: #fcd765;
+}
+.A,.B,.C{
+  box-shadow: 4px 4px 2.5px #6e6e70;
+  margin: 10px 10px auto 10px;
+  padding-right: 70px;
+  padding-left: 70px;
+  border: 20px;
+}
+.d-flex{
+  background-color:#e6e6e8;
+  color: #ffffff;
+  font-size: 9rem;
+}
+.E{
+  background-color: #fefefc;
+  box-shadow: 4px 4px 2.5px #6e6e70;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-top: 200px;
+}
+@media (max-width: 1024px)
+{
+  .E{
+    padding-top: 170px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .A{
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .d-flex{
+    font-size: 6rem;
+  }
+}
+@media (max-width: 768px) {
+  .E{
+    padding-top: 20px;
+    width: 100%;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+  }
+  .A,.B,.C{
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+  }
+
+  .d-flex{
+    font-size: 5rem;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
